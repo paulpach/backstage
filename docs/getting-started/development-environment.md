@@ -26,6 +26,8 @@ You can now view example-app in the browser.
 Run the following commands if you have Docker environment
 
 ```bash
+$ yarn install
+$ yarn bundle
 $ docker build . -t spotify/backstage
 $ docker run --rm -it -p 80:80 spotify/backstage
 ```
